@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inicio"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/basic"
+            android:gravity="center_horizontal"
+            android:text="INICIAR SESIÓN"
+            android:textColor="#001479"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_marginBottom="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/basic"
+            android:gravity="center_horizontal"
+            android:text="COMO:"
+            android:textColor="#001479"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15dp"
+            android:text="ADMINISTRADOR"
+            android:id="@+id/btninisesionadmin"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15dp"
+            android:text="VENDEDOR"
+            android:id="@+id/btninisesionvende"
+            android:layout_marginBottom="20dp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
